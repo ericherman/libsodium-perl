@@ -277,7 +277,7 @@ size_t crypto_onetimeauth_poly1305_keybytes()
 
 const char * crypto_onetimeauth_poly1305_primitive()
 
-const char *crypto_onetimeauth_poly1305_ref_implementation_name()
+# LATER const char *crypto_onetimeauth_poly1305_ref_implementation_name()
 
 # TODO int crypto_onetimeauth_poly1305_set_implementation(crypto_onetimeauth_poly1305_implementation *impl)
 
