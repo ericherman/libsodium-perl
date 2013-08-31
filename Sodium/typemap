@@ -1,0 +1,16 @@
+TYPEMAP
+const unsigned char *   T_PV
+unsigned long long      T_UV
+unsigned long long *    T_PV
+const size_t            T_UV
+char * const            T_PV
+uint32_t                T_UV
+const uint32_t          T_UV
+void * const            T_PV
+const void * const      T_PV
+
+# this is bogus
+# randombytes_implementation *                    T_PV
+# crypto_generichash_state *                      T_PV
+# crypto_generichash_blake2b_state *              T_PV
+# crypto_onetimeauth_poly1305_implementation *    T_PV

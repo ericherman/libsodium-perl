@@ -1,0 +1,7 @@
+A perl wrapper for libsodium
+
+Build this module with:
+
+$ perl Makefile.PL
+$ make
+
